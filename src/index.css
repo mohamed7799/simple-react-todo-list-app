@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/*style for the basic bar*/
+.bar{
+  display: flex;
+  align-items: center;
+}
+
+.bar__text{
+  flex-basis: 90%;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.bar__symbol{
+  flex-basis: 10%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+
