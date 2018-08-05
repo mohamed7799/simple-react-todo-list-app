@@ -33,7 +33,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="App__title">React todo app</h1>
+        <h1 className="App__title">React ToDo app</h1>
         <AddInput Add={this.addTask} />
         <SearchInput search={this.search} />
         <hr className="App__line" />
